@@ -103,6 +103,7 @@ float:none;
 width: 329px;
 height: 450px;
 
+
 background: #FFFFFF;
 box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
 border-radius: 5px;
@@ -175,4 +176,31 @@ float: none;
     color: white;
     text-align: center;
     word-spacing: 15px;
+}
+
+/*-----------------
+   Media Queries
+-------------------*/
+
+/*Mobile Devices*/
+@media only screen and ( max-width:688px) {
+    .flex-container{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        left: 0;
+    }
+    .bold-one{
+        font-size: 30px;
+        left: 0;
+    }
+        
+    
+    #finalone-name{
+        align-items: justify;
+        padding: 0 20px;
+        transform: translatez(300px);
+
+    }
+
 }
