@@ -1,0 +1,178 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#head{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 78, 107), rgb(253, 89, 116));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    
+}
+
+.join-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 78, 107), rgb(253, 89, 116));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.see-more{
+    color:rgb(255, 91, 118);
+    text-decoration: none;
+    padding-left: 1050px;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: large;
+}
+
+.flex-container{
+    display: flex;
+    margin-left:120px;
+    margin-right: 50px;
+}
+#first-image{
+    width: 440px;
+    height: 414px;
+    left: 835px;
+    padding-top: 80px;
+}
+
+#last-image{
+    width: 440px;
+    height: 414px;
+    padding-top: 130px;
+    padding-right: 20px;
+
+
+}
+#popular{
+    text-align: center;
+
+}
+.course{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star.filled{
+    color: rgb(255, 255, 0);
+
+}
+
+
+
+#mic-one{
+    padding-left: 15px;
+    padding-top: 10px;
+width: 329px;
+height: 450px;
+
+background: #FFFFFF;
+box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+box-sizing: border-box;
+border: 5px;
+float:none;
+}
+
+#mic-two{
+    padding-left: 15px;
+    padding-top: 10px;
+width: 329px;
+height: 450px;
+
+background: #FFFFFF;
+box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+box-sizing: border-box;
+border: 5px;
+float: none;
+}
+#mic-three{
+    padding-left: 15px;
+    padding-top: 10px;
+width: 329px;
+height: 450px;
+
+background: #FFFFFF;
+box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+box-sizing: border-box;
+border: 5px;
+float: none;
+}
+
+
+#gear-one{
+    padding:center ;
+}
+
+#second-item{
+    padding-top: 20px;
+}
+#popular{
+    text-align: center;
+    padding-right: 55px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#featured{
+    padding-top: 80px;
+    padding-left: 40px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.bold-one{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 70px;
+    color:  #3A3A3A;;
+}
+
+#finalone-name{
+    background-color: black;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#last-name{
+    text-align: center;
+}
+#black-name{
+    color: white;
+}
+#tomato-name{
+    color: tomato;
+}
+#hard-name{
+    color: white;
+}
+.social-one{
+    color: white;
+    text-align: center;
+    word-spacing: 15px;
+}
